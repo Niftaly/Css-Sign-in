@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* one css start */
+
+.container {
+  max-width: 352px;
+  margin: auto;
+}
+
+body {
+  text-align: left;
+  background-color: blue;
+}
+
+#general {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+#one {
+  background-color: #dceaff;
+  width: 440px;
+}
+
+#one h1 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #4f4f4f;
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+#one form input {
+  width: 100%;
+  font-size: 14px;
+  color: #555555;
+  font-weight: 300;
+  font-family: "Nova Flat", cursive;
+  background-color: rgba(255, 255, 255, 0.7019607843137254);
+  border: none;
+  outline: none;
+  padding: 15px 5px;
+  border-radius: 3px;
+}
+
+#one form label {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #4f4f4f;
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+}
+
+#remember {
+  margin-top: 10px;
+  width: 15px !important;
+}
+
+#one form input::placeholder {
+  color: #555555;
+}
+
+#one form input::nth-child(1) {
+  margin-bottom: 50px;
+}
+#one form input::nth-child(2) {
+  margin-bottom: 56px;
+}
+
+#one form a {
+  font-size: 14px;
+  line-height: 28px;
+  color: #04a9f4;
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+  padding-left: 170px;
+  text-decoration: none;
+}
+
+#one form button {
+  width: 352px;
+  height: 55px;
+  margin-top: 20px;
+  border-radius: 4px;
+  filter: drop-shadow(0px 3px 0px #0075aa);
+  background-color: #0896d7;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+  text-align: center;
+  filter: drop-shadow(0px -1px 0px rgba(0, 0, 0, 0.2));
+  border: none;
+}
+
+/* #one css finish */
+
+/* two css start */
+
+#two button {
+  margin-right: -3px;
+  margin-bottom: 25px;
+}
+
+#two button:nth-child(1) {
+  padding: 10px 40px;
+  margin-right: 26px;
+  border-radius: 6px;
+  background-color: #3162a2;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+  text-align: center;
+  border: none;
+}
+
+#two button:nth-child(2) {
+  padding: 10px 50px;
+  border-radius: 6px;
+  background-color: #00aaf4;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+  text-align: center;
+  border: none;
+}
